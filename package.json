@@ -1,0 +1,22 @@
+{
+  "name": "legco2016cheating-elm",
+  "version": "1.0.0",
+  "description": "Legco2016 cheating GO! in (ELM)",
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --port 3000"
+  },
+  "keywords": [],
+  "author": "jackysee",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "3.0.1",
+    "elm-webpack-loader": "3.0.6",
+    "file-loader": "0.9.0",
+    "rimraf": "2.5.4",
+    "webpack": "1.13.2",
+    "webpack-dev-middleware": "1.7.0",
+    "webpack-dev-server": "1.15.1"
+  }
+}
