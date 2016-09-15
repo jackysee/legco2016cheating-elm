@@ -9114,27 +9114,6 @@
 						_elm_lang$html$Html$text(label)
 					]));
 		});
-	var _jackysee$legco2016cheating$View$renderError = function (model) {
-		return _elm_lang$core$String$isEmpty(model.fetchError) ? A2(
-			_elm_lang$html$Html$div,
-			_elm_lang$core$Native_List.fromArray(
-				[]),
-			_elm_lang$core$Native_List.fromArray(
-				[])) : A2(
-			_elm_lang$html$Html$div,
-			_elm_lang$core$Native_List.fromArray(
-				[
-					_elm_lang$html$Html_Attributes$style(
-					_elm_lang$core$Native_List.fromArray(
-						[
-							{ctor: '_Tuple2', _0: 'color', _1: 'red'}
-						]))
-				]),
-			_elm_lang$core$Native_List.fromArray(
-				[
-					_elm_lang$html$Html$text(model.fetchError)
-				]));
-	};
 	var _jackysee$legco2016cheating$View$view = function (model) {
 		var resultVisible = _elm_lang$core$String$isEmpty(model.fetchError) ? 'visible' : 'hidden';
 		return A2(

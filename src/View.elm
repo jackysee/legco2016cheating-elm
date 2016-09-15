@@ -41,14 +41,6 @@ view model =
         ]
 
 
-renderError: Model -> Html Msg
-renderError model =
-    if String.isEmpty model.fetchError then
-        div [] []
-    else
-        div [style [("color", "red")]] [text model.fetchError]
-
-
 regionButton : Model -> RegionName -> String -> Html Msg
 regionButton model regionName label =
     button
