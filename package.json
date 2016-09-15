@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Legco2016 cheating GO! in (ELM)",
   "scripts": {
-    "build": "rimraf doc && webpack",
+    "build": "rimraf docs && webpack",
     "watch": "webpack --watch",
     "dev": "webpack-dev-server --port 3000"
   },
